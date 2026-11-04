@@ -22,6 +22,7 @@ WIP Meshtastic support for Waveshare ESP32-S3-LR1121-OLED-1.54
 
 <img width="960" height="725" alt="image" src="https://github.com/user-attachments/assets/53cd34ce-01b5-4d47-ab8f-6ccf1322192d" />
 
+<img width="845" height="729" alt="image" src="https://github.com/user-attachments/assets/ee6b18ce-f9b3-447b-82b6-34d4014d50b0" />
 
 
 | Meshtastic Feature | Status | Notes |
