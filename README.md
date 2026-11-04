@@ -37,7 +37,7 @@ WIP Meshtastic support for Waveshare ESP32-S3-LR1121-OLED-1.54
 | BQ27220 |  | Working I guess my device have no battery |
 | Speaker |  | Not yet |
 | Microphone |  | Not yet |
-
+| TF Slot |  | Not tested at all yet, internal |
 ---
 
 Firmware Build notes
