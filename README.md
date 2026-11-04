@@ -2,7 +2,7 @@
 WIP Meshtastic support for Waveshare ESP32-S3-LR1121-OLED-1.54 
 
 
-# Features
+# Hardware Features
 
 * Equipped with an ESP32-S3 dual-core Xtensa LX7 processor, 240 MHz clock speed, supporting 2.4 GHz Wi-Fi and BLE 5
 
@@ -25,7 +25,7 @@ WIP Meshtastic support for Waveshare ESP32-S3-LR1121-OLED-1.54
 
 
 
-| Feature | Status | Notes |
+| Meshtastic Feature | Status | Notes |
 | :--- | :---: | :--- |
 | **System Board ** |  | Meshtastic starts successfully. |
 | **Firmware Flasing** |  | Working via USB-C |
