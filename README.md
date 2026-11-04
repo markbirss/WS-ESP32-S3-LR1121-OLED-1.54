@@ -1,5 +1,5 @@
 # ESP32-S3-LT1121-OLED-1.54
-WIP Meshtastic support for Waveshare ESP32-S3-LT1121-OLED-1.54 
+WIP Meshtastic support for Waveshare ESP32-S3-LR1121-OLED-1.54 
 
 
 <img width="960" height="963" alt="image" src="https://github.com/user-attachments/assets/481bad58-e465-430b-bd1f-73e6f68c64c3" />
