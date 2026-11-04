@@ -18,7 +18,6 @@ WIP Meshtastic support for Waveshare ESP32-S3-LR1121-OLED-1.54
 
 * 4 function buttons (BOOT, PWR, MENU, PTT) and 1 reset button (RST); the walkie-talkie example provides Light Sleep and button wake-up functions
 
-
 <img width="960" height="963" alt="image" src="https://github.com/user-attachments/assets/481bad58-e465-430b-bd1f-73e6f68c64c3" />
 
 <img width="960" height="725" alt="image" src="https://github.com/user-attachments/assets/53cd34ce-01b5-4d47-ab8f-6ccf1322192d" />
