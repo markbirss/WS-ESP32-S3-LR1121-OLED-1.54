@@ -19,6 +19,18 @@ WIP Meshtastic support for Waveshare ESP32-S3-LR1121-OLED-1.54
 
 ---
 
+Firmware Build notes
+```
+git clone --recurse-submodules https://github.com/meshtastic/firmware.git
+git clone https://github.com/markbirss/WS-ESP32-S3-LR1121-OLED-1.54.git
+cp WS-ESP32-S3-LR1121-OLED-1.54/boards/ESP32-S3-LR1121-OLED-1.54.json firmware/boards/
+cp -r WS-ESP32-S3-LR1121-OLED-1.54/ESP32-S3-LR1121-OLED-1.54/ firmware/variants/esp32s3/
+cd firmware/
+pio run -e ESP32-S3-LR1121-OLED-154 -t upload
+```
+
+---
+
 ## Further Reading
 
 https://www.waveshare.com/esp32-s3-lr1121-oled-1.54.htm?sku=35898
