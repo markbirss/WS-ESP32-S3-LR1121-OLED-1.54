@@ -41,6 +41,11 @@ WIP Meshtastic support for Waveshare ESP32-S3-LR1121-OLED-1.54
 | TF Slot |  | Not tested at all yet, internal |
 ---
 
+Erase
+```
+esptool --chip esp32s3 --port /dev/ttyACM0 erase_flash
+```
+
 Firmware Build notes
 ```
 git clone --recurse-submodules https://github.com/meshtastic/firmware.git
