@@ -1,7 +1,7 @@
 # WS-ESP32-S3-LR1121-OLED-1.54 Meshtastic Support
 
 <div align="left">
-  <a href="https://meshtastic.org/">
+  <a href="https://meshtastic.org">
     <img src="https://shields.io" alt="Meshtastic Supported" />
   </a>
   <a href="https://waveshare.com">
@@ -12,6 +12,7 @@
   </a>
 </div>
 
+<br />
 
 Firmware configuration and variants required to add **Meshtastic support for the Waveshare ESP32-S3-LR1121-OLED-1.54** development board.
 
@@ -32,9 +33,9 @@ Firmware configuration and variants required to add **Meshtastic support for the
 ## 📸 Media / Preview
 
 <p align="center">
-  <img width="30%" alt="Hardware Top View" src="https://github.com/user-attachments/assets/481bad58-e465-430b-bd1f-73e6f68c64c3" />
-  <img width="30%" alt="Hardware Pinout Diagram" src="https://github.com/user-attachments/assets/53cd34ce-01b5-4d47-ab8f-6ccf1322192d" />
-  <img width="30%" alt="Hardware Dimension Layout" src="https://github.com/user-attachments/assets/ee6b18ce-f9b3-447b-82b6-34d4014d50b0" />
+  <img width="30%" alt="Hardware Top View" src="https://github.com" />
+  <img width="30%" alt="Hardware Pinout Diagram" src="https://github.com" />
+  <img width="30%" alt="Hardware Dimension Layout" src="https://github.com" />
 </p>
 
 ---
@@ -73,8 +74,8 @@ Inject the board configuration layouts manually into the build tree of your stan
 
 ```bash
 # Clone target codebase repos
-git clone --recurse-submodules https://github.com/meshtastic/firmware.git
-git clone https://github.com/markbirss/WS-ESP32-S3-LR1121-OLED-1.54.git
+git clone --recurse-submodules https://github.com
+git clone https://github.com
 
 # Copy hardware configuration profiles over to target project structures
 cp WS-ESP32-S3-LR1121-OLED-1.54/boards/ESP32-S3-LR1121-OLED-1.54.json firmware/boards/
@@ -89,8 +90,8 @@ pio run -e ESP32-S3-LR1121-OLED-154 -t upload
 
 ## 🔗 Further Reading
 
-* [Waveshare ESP32-S3-LR1121-OLED-1.54 Official Product Page](https://www.waveshare.com/esp32-s3-lr1121-oled-1.54.htm?sku=35898)
-* [Waveshare Team Hardware Repository](https://github.com/waveshareteam/esp32-s3-lr1121-oled-1.54)
+* [Waveshare ESP32-S3-LR1121-OLED-1.54 Official Product Page](https://waveshare.com)
+* [Waveshare Team Hardware Repository](https://github.com)
 
 ---
 
@@ -105,4 +106,4 @@ pio run -e ESP32-S3-LR1121-OLED-154 -t upload
 
 If this open-hardware integration provides functional value to your projects, consider fuel-injecting my engineering pipeline!
 
-[![Buy Me A Coffee](https://img.shields.io/badge/buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mark.birss)
+[![Buy Me A Coffee](https://shields.io)](https://buymeacoffee.com)
