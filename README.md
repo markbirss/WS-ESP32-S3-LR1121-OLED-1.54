@@ -76,8 +76,8 @@ pio run -e ESP32-S3-LR1121-OLED-154 -t upload
 
 ## 🔗 Further Reading
 
-* [Waveshare ESP32-S3-LR1121-OLED-1.54 Official Product Page](https://waveshare.com)
-* [Waveshare Team Hardware Repository](https://github.com)
+* https://www.waveshare.com/esp32-s3-lr1121-oled-1.54.htm
+* https://github.com/waveshareteam/esp32-s3-lr1121-oled-1.54
 
 ---
 
