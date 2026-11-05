@@ -5,15 +5,46 @@
 #define HAS_SCREEN 1
 #define I2C_NO_RESCAN
 
-#define UART_TX 43
-#define UART_RX 44
-
 #define LED_PIN 2 // Used External for now
 #define LED_STATE_ON 0
 #define LED_STATE_OFF 1
 #define BUTTON_PIN 5 // MENU Button
 #define BUTTON_ACTIVE_LOW true
 #define BUTTON_ACTIVE_PULLUP true
+
+// Button GPIOs
+#define PIN_KEY_BOOT 0
+#define PIN_KEY_PWR  4
+#define PIN_KEY_MENU 5
+#define PIN_KEY_PTT  6
+
+#define I2C_SDA SDA
+#define I2C_SCL SCL
+#define USE_SSD1306
+
+// audio codec ES8311
+#define HAS_I2S
+
+#define PA_CTRL 8
+#define DAC_I2S_BCK 18
+#define DAC_I2S_WS 21
+#define DAC_I2S_DOUT 15
+#define DAC_I2S_DIN 16
+#define DAC_I2S_MCLK 17
+
+#define HAS_DRV2605 1
+
+// PCF85063 RTC Module
+#define PCF85063_RTC 0x51
+
+// battery quality management BQ27220
+#define HAS_BQ27220 1
+#define BQ27220_I2C_SDA SDA
+#define BQ27220_I2C_SCL SCL
+#define BQ27220_DESIGN_CAPACITY 1500
+
+#define UART_TX 43
+#define UART_RX 44
 
 #define LORA_SCK 40
 #define LORA_MISO 46
@@ -36,39 +67,3 @@
 #define LR1121_SPI_MISO_PIN LORA_MISO
 #define LR11X0_DIO3_TCXO_VOLTAGE 1.8
 #define LR11X0_DIO_AS_RF_SWITCH
-
-#define USE_SSD1306
-
-#define I2C_SDA SDA
-#define I2C_SCL SCL
-
-#define HAS_DRV2605 1
-
-// PCF85063 RTC Module
-#define PCF85063_RTC 0x51
-
-// battery quality management BQ27220
-#define HAS_BQ27220 1
-#define BQ27220_I2C_SDA SDA
-#define BQ27220_I2C_SCL SCL
-#define BQ27220_DESIGN_CAPACITY 1500
-
-// audio codec ES8311
-#define HAS_I2S
-
-#define PA_CTRL 8
-#define DAC_I2S_BCK 18
-#define DAC_I2S_WS 21
-#define DAC_I2S_DOUT 15
-#define DAC_I2S_DIN 16
-#define DAC_I2S_MCLK 17
-
-// Button GPIOs
-#define PIN_KEY_BOOT 0
-#define PIN_KEY_PWR  4
-#define PIN_KEY_MENU 5
-#define PIN_KEY_PTT  6
-
-//#define SD_MMC_CLK 12
-//#define SD_MMC_CMD 10
-//#define SD_MMC_D0  11
