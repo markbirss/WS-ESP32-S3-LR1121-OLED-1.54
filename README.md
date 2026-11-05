@@ -92,4 +92,4 @@ pio run -e ESP32-S3-LR1121-OLED-154 -t upload
 
 If this open-hardware integration provides functional value to your projects, consider fuel-injecting my engineering pipeline!
 
-[![Buy Me A Coffee](https://shields.io)](https://buymeacoffee.com)
+[![Buy Me A Coffee](https://img.shields.io/badge/buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mark.birss)
