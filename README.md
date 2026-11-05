@@ -36,8 +36,8 @@ WIP Meshtastic support for Waveshare ESP32-S3-LR1121-OLED-1.54
 | **I2C OLED Display** |  | Working |
 | RTC |  | Working I guess |
 | BQ27220 |  | Working I guess my device have no battery |
-| Speaker |  | Not yet |
-| Microphone |  | Not yet |
+| Speaker |  | Working |
+| Microphone |  | Not yet tested |
 | TF Slot |  | Not tested at all yet, internal |
 ---
 
