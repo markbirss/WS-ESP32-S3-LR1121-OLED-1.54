@@ -27,18 +27,18 @@ WIP Meshtastic support for Waveshare ESP32-S3-LR1121-OLED-1.54
 
 | Meshtastic Feature | Status | Notes |
 | :--- | :---: | :--- |
-| **System Board ** |  | Meshtastic starts successfully. |
-| **Firmware Flasing** |  | Working via USB-C |
-| **Button** |  | Working |
-| **UART** |  | Working |
-| **Bluetooth** |  | Working |
-| **LoRa Radio** |  | Working |
-| **I2C OLED Display** |  | Working |
-| RTC |  | Working I guess |
-| BQ27220 |  | Working I guess my device have no battery |
-| Speaker |  | Working |
-| Microphone |  | Not yet tested |
-| TF Slot |  | Not tested at all yet, internal |
+| **System Board ** | OK | Meshtastic starts successfully. |
+| **Firmware Flasing** | OK | Working via USB-C |
+| **Button** | Menu | Working |
+| **UART** | OK | Working |
+| **Bluetooth** | OK | Working |
+| **LoRa Radio** | OK | Working |
+| **I2C OLED Display** | OK | Working |
+| RTC | OK | Working I guess |
+| BQ27220 | OK  | Working I guess my device have no battery |
+| Speaker | OK set at 85% | Working |
+| Microphone | set at 75% | Not yet tested |
+| TF Slot | 1Bit interface | Not tested at all yet, internal |
 ---
 
 Erase
