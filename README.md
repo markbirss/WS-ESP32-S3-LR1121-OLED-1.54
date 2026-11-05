@@ -60,8 +60,8 @@ Inject the board configuration layouts manually into the build tree of your stan
 
 ```bash
 # Clone target codebase repos
-git clone --recurse-submodules https://github.com
-git clone https://github.com
+git clone --recurse-submodules [https://github.com](https://github.com/meshtastic/firmware.git)
+git clone [https://github.com](https://github.com/markbirss/WS-ESP32-S3-LR1121-OLED-1.54)
 
 # Copy hardware configuration profiles over to target project structures
 cp WS-ESP32-S3-LR1121-OLED-1.54/boards/ESP32-S3-LR1121-OLED-1.54.json firmware/boards/
