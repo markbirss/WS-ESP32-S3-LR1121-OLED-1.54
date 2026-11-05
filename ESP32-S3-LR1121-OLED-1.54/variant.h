@@ -37,7 +37,7 @@
 //#define HAS_DRV2605 1
 
 // PCF85063 RTC Module
-//#define PCF85063_RTC 0x51
+#define PCF85063_RTC 0x51
 
 // battery quality management BQ27220
 #define HAS_BQ27220 1
