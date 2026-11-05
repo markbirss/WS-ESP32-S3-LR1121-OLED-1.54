@@ -30,8 +30,8 @@
 #define PA_CTRL 8
 #define DAC_I2S_BCK 18
 #define DAC_I2S_WS 21
-#define DAC_I2S_DOUT 15
-#define DAC_I2S_DIN 16
+#define DAC_I2S_DOUT 16
+#define DAC_I2S_DIN 15
 #define DAC_I2S_MCLK 17
 
 //#define HAS_DRV2605 1
