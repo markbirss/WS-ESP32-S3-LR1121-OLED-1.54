@@ -23,6 +23,8 @@
 #define USE_SSD1306
 
 // audio codec ES8311
+#define AUDIO_AMP_SETTLE_MS 250
+#define AUDIO_AMP_ENABLE(on)
 #define HAS_I2S
 
 #define PA_CTRL 8
