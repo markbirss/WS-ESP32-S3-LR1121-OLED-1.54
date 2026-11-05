@@ -27,7 +27,7 @@
     "openocd_target": "esp32s3.cfg"
   },
   "frameworks": ["arduino", "espidf"],
-  "name": "LilyGo T-Connect-Pro (16 MB FLASH, 8 MB PSRAM)",
+  "name": "Waveshare ESP32-S3-LR1121-OLED-1.54 (16 MB FLASH, 8 MB PSRAM)",
   "upload": {
     "flash_size": "16MB",
     "maximum_ram_size": 327680,
