@@ -30,6 +30,7 @@ WIP Meshtastic support for Waveshare ESP32-S3-LR1121-OLED-1.54
 | **System Board ** | OK | Meshtastic starts successfully. |
 | **Firmware Flasing** | OK | Working via USB-C |
 | **Button** | Menu | Working |
+| **Button** | Poweroff | Working hold down for 5 seconds power off and power up|
 | **UART** | OK | Working |
 | **Bluetooth** | OK | Working |
 | **LoRa Radio** | OK | Working |
