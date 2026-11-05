@@ -32,7 +32,7 @@ void lateInitVariant() {
     Serial.println("[Variant Setup] ES8311 Hardware registers initialized successfully.");
 
     // Apply the fixed hardware attenuation factor into your primary output volume map
-    float baselineVolume = 95.0f * pow(10.0f, AUDIO_ES8311_HW_GAIN_DB / 20.0f);
+    float baselineVolume = 85.0f * pow(10.0f, AUDIO_ES8311_HW_GAIN_DB / 20.0f);
     board.setVolume(static_cast<uint8_t>(baselineVolume));
 
     // 4. FIX: Use setInputVolume with a 0-100% parameter
