@@ -26,7 +26,7 @@ void lateInitVariant()
     cfg.input_device = ADC_INPUT_LINE1;
     cfg.output_device = DAC_OUTPUT_ALL;
     cfg.i2s.bits = BIT_LENGTH_16BITS;
-    cfg.i2s.rate = RATE_44K;
+    cfg.i2s.rate = RATE_48K;
     board.begin(cfg);
 
     // extra ES8311 init
