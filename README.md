@@ -39,8 +39,8 @@ Meshtastic Firmware variant for the Waveshare **ESP32-S3-LR1121-OLED-1.54**
 | **LoRa Radio** |  `OK` | RF paths and chip communication verified. |
 | **I2C OLED Display** |  `OK` | Screen turns on and UI renders correctly. |
 | **Speaker / Audio DAC** |  `OK` | Functional. Software attenuation set at 85%. |
-| **PCF85063A RTC** |  `OK` | Clock tracking functions operational. |
-| **BQ27220 Fuel Gauge** |  `OK` | Interface initialized. *(Note: Unchecked behavior under raw battery loads)* |
+| **PCF85063A RTC** |  `OK` | Seems operational. |
+| **BQ27220 Fuel Gauge** |  `OK` | Interface initialized. *(Note: Unchecked as my device have no battery installed)* |
 | **Microphone / ADC** | ⚠️ `TESTING` | Attenuation initialized at 75%. Audio stream capture remains unverified. |
 | **TF Card Slot** | ⏳ `UNTESTED` | Internal 1-Bit mode hardware. |
 
