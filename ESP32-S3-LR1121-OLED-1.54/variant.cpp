@@ -2,7 +2,6 @@
 #include "Arduino.h"
 #include "AudioBoard.h"
 #include <Wire.h>
-#include "configuration.h"
 
 DriverPins PinsAudioBoardES8311;
 AudioBoard board(AudioDriverES8311, PinsAudioBoardES8311);
