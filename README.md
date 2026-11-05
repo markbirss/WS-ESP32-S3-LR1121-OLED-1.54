@@ -1,6 +1,6 @@
 # WS-ESP32-S3-LR1121-OLED-1.54 Meshtastic Support
 
-Firmware configuration and variants required to add **Meshtastic support for the Waveshare ESP32-S3-LR1121-OLED-1.54** development board.
+Firmware variants required for the **Meshtastic support for the Waveshare ESP32-S3-LR1121-OLED-1.54** development board.
 
 ---
 
@@ -42,20 +42,20 @@ Firmware configuration and variants required to add **Meshtastic support for the
 | **PCF85063A RTC** |  `OK` | Clock tracking functions operational. |
 | **BQ27220 Fuel Gauge** |  `OK` | Interface initialized. *(Note: Unchecked behavior under raw battery loads)* |
 | **Microphone / ADC** | ⚠️ `TESTING` | Attenuation initialized at 75%. Audio stream capture remains unverified. |
-| **TF Card Slot** | ⏳ `UNTESTED` | Internal 1-Bit mode hardware mapping completed but completely untested. |
+| **TF Card Slot** | ⏳ `UNTESTED` | Internal 1-Bit mode hardware. |
 
 ---
 
 ## 🚀 Flashing & Build Instructions
 
-### 1. Clear Existing Storage
-Before flashing the customized firmware build, erase the flash memory block entirely:
+### 1. Clear Existing Flash Storage
+Before flashing the customized firmware build, erase the flash storage:
 
 ```bash
 esptool --chip esp32s3 --port /dev/ttyACM0 erase_flash
 ```
 
-### 2. Clone repositories and merge variant mappings
+### 2. Clone repositories and merge variant
 Inject the board configuration layouts manually into the build tree of your standard platformio environment:
 
 ```bash
