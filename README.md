@@ -1,19 +1,5 @@
 # WS-ESP32-S3-LR1121-OLED-1.54 Meshtastic Support
 
-<div align="left">
-  <a href="https://meshtastic.org">
-    <img src="https://shields.io" alt="Meshtastic Supported" />
-  </a>
-  <a href="https://waveshare.com">
-    <img src="https://shields.io" alt="Waveshare Hardware" />
-  </a>
-  <a href="https://buymeacoffee.com">
-    <img src="https://shields.io" alt="Buy Me A Coffee" />
-  </a>
-</div>
-
-<br />
-
 Firmware configuration and variants required to add **Meshtastic support for the Waveshare ESP32-S3-LR1121-OLED-1.54** development board.
 
 ---
