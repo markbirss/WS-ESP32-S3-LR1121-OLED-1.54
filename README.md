@@ -6,7 +6,7 @@ Meshtastic Firmware variant for the Waveshare **ESP32-S3-LR1121-OLED-1.54**
 
 ---
 
-## 🛠️ Hardware Features
+## 📸 Hardware Specs and Features
 
 * **Core Processor:** ESP32-S3 dual-core Xtensa LX7 processor running at 240 MHz. Supports 2.4 GHz Wi-Fi and BLE 5.
 * **Memory Configuration:** Onboard 16 MB Flash and 8 MB Octal PSRAM.
@@ -15,10 +15,6 @@ Meshtastic Firmware variant for the Waveshare **ESP32-S3-LR1121-OLED-1.54**
 * **Audio Capabilities:** Onboard ES7210 microphone ADC and ES8311 audio DAC supporting voice capture and playback.
 * **Peripherals:** Onboard PCF85063A RTC, BQ27220 battery fuel gauge, and an integrated TF/MMC card slot.
 * **User Interfaces:** 4 function buttons (`BOOT`, `PWR`, `MENU`, `PTT`) and 1 reset button (`RST`). The default walkie-talkie firmware profile provides Light Sleep and button wake-up routines.
-
----
-
-## 📸 Specification
 
 <p align="center">
   <img width="50%" alt="Hardware Pinout Diagram" src="https://github.com/user-attachments/assets/53cd34ce-01b5-4d47-ab8f-6ccf1322192d" />
