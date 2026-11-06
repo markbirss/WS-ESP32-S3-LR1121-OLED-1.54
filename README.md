@@ -70,6 +70,10 @@ cp -r WS-ESP32-S3-LR1121-OLED-1.54/ESP32-S3-LR1121-OLED-1.54/ firmware/variants/
 # Compile and upload target firmware variant code
 cd firmware/
 pio run -e ESP32-S3-LR1121-OLED-154 -t upload
+
+meshtastic --set-ringtone "TringTringLong:d=8,o=6,b=500:d,e,d,e,d,e,p,p,d,e,d,e,d,e,2p,1p,d,e,d,e,d,e,p,p,d,e,d,e,d,e,2p"
+
+meshtastic --set device.buzzer_mode NOTIFICATIONS_ONLY
 ```
 
 ---
