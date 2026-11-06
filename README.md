@@ -17,10 +17,9 @@ Meshtastic Firmware variant for the Waveshare **ESP32-S3-LR1121-OLED-1.54**
 
 ---
 
-## 📸 Media / Preview
+## 📸 Specification
 
 <p align="center">
-  
   <img width="50%" alt="Hardware Pinout Diagram" src="https://github.com/user-attachments/assets/53cd34ce-01b5-4d47-ab8f-6ccf1322192d" />
   <img width="50%" alt="Hardware Dimension Layout" src="https://github.com/user-attachments/assets/ee6b18ce-f9b3-447b-82b6-34d4014d50b0" />
 </p>
