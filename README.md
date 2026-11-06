@@ -1,6 +1,6 @@
 # WS-ESP32-S3-LR1121-OLED-1.54 Meshtastic Support
 
-Meshtastic Firmware variant for the Waveshare **ESP32-S3-LR1121-OLED-1.54**
+Initial Meshtastic Firmware for the Waveshare **ESP32-S3-LR1121-OLED-1.54** under development
 
 <img width="80%" alt="Hardware Top View" src="https://github.com/user-attachments/assets/481bad58-e465-430b-bd1f-73e6f68c64c3" />
 
