@@ -29,7 +29,7 @@ void lateInitVariant() {
 
   // 3. Initialize register table with safety validation
   if (board.begin(cfg)) {
-    Serial.println("[Variant Setup] ES8311 Hardware registers initialized successfully.");
+    //Serial.println("[Variant Setup] ES8311 Hardware registers initialized successfully.");
 
     // Apply the fixed hardware attenuation factor into your primary output volume map
     float baselineVolume = 85.0f * pow(10.0f, AUDIO_ES8311_HW_GAIN_DB / 20.0f);
@@ -44,6 +44,6 @@ void lateInitVariant() {
     board.setMute(false);
 
   } else {
-    Serial.println("[Variant Setup] ES8311 Hardware registry communication failed!");
+    //Serial.println("[Variant Setup] ES8311 Hardware registry communication failed!");
   }
 }
