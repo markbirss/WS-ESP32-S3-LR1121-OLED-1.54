@@ -33,7 +33,7 @@ Initial Meshtastic Firmware for the Waveshare **ESP32-S3-LR1121-OLED-1.54** unde
 | **Power Button** |  `OK` | Functional. Hold down for 5 seconds to toggle system power state. |
 | **UART Hardware** |  `OK` | Validated and functional. |
 | **Bluetooth (BLE)** |  `OK` | Validated and functional. |
-| **LoRa Radio** |  `OK` | RF paths and chip communication verified. |
+| **Sub 1Ghz LoRa Radio** |  `OK` | RF paths and chip communication verified. |
 | **I2C OLED Display** |  `OK` | Screen turns on and UI renders correctly. |
 | **Speaker / Audio DAC** |  `OK` | Functional. Software attenuation set at 85%. |
 | **PCF85063A RTC** |  `OK` | Seems operational. |
