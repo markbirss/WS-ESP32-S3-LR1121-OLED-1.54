@@ -4,9 +4,7 @@ Initial Meshtastic Firmware for the Waveshare **ESP32-S3-LR1121-OLED-1.54** unde
 
 <img width="80%" alt="Hardware Top View" src="https://github.com/user-attachments/assets/481bad58-e465-430b-bd1f-73e6f68c64c3" />
 
-<img width="671" height="1328" alt="20261118_111944" src="https://github.com/user-attachments/assets/eb77e159-43f7-43a0-8d11-c3c1c59e5328" />
 
-<img width="850" height="1213" alt="20261118_112221" src="https://github.com/user-attachments/assets/1475c0d5-602b-4b88-ab2a-83d98ceab659" />
 
 ---
 
@@ -22,7 +20,9 @@ Initial Meshtastic Firmware for the Waveshare **ESP32-S3-LR1121-OLED-1.54** unde
 
 <p align="center">
   <img width="60%" alt="Hardware Pinout Diagram" src="https://github.com/user-attachments/assets/53cd34ce-01b5-4d47-ab8f-6ccf1322192d" />
-  <img width="60%" alt="Hardware Dimension Layout" src="https://github.com/user-attachments/assets/ee6b18ce-f9b3-447b-82b6-34d4014d50b0" />
+  <img width="60%" alt="Hardware Dimension Layout" src="https://github.com/user-attachments/assets/ee6b18ce-f9b3-447b-82b6-34d4014d50b0" /> 
+ <img width="60%" alt="20261118_111944" src="https://github.com/user-attachments/assets/eb77e159-43f7-43a0-8d11-c3c1c59e5328" />
+<img width="60%" alt="20261118_112221" src="https://github.com/user-attachments/assets/1475c0d5-602b-4b88-ab2a-83d98ceab659" /> 
 </p>
 
 ---
