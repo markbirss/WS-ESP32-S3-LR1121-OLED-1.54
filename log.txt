@@ -1,0 +1,187 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037f39a
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30b0
+entry 0x403c88b8
+[     4][I][esp32-hal-psram.c:106] psramAddToHeap(): PSRAM added to the heap.
+INFO  | ??:??:?? 0
+
+//\ E S H T /\ S T / C
+
+INFO  | ??:??:?? 0 Booted, wake cause 0 (boot count 1), reset_reason=reset
+DEBUG | ??:??:?? 0 Filesystem files (28672/3538944 Bytes):
+INFO  | ??:??:?? 0 Starting Bus with (SDA) 13 and (SCL) 14:
+[   132][I][esp32-hal-i2c-ng.c:112] i2cInit(): Initializing I2C Master: num=0 sda=13 scl=14 freq=100000
+DEBUG | ??:??:?? 0 Power::max17048Init lipo sensor is not ready yet
+INFO  | ??:??:?? 0 Scan for i2c devices
+DEBUG | ??:??:?? 0 Scan for I2C devices on port 1
+DEBUG | ??:??:?? 0 Register value from 0x18: 0x83
+INFO  | ??:??:?? 0 ES8311 found at address 0x18
+DEBUG | ??:??:?? 0 0x1 subtype probed in 2 tries
+DEBUG | ??:??:?? 0 Register value from 0x40: 0xffff
+DEBUG | ??:??:?? 0 Register MFG_UID: 0xffff
+INFO  | ??:??:?? 0 ES7210 audio codec at 0x40, not a power sensor
+INFO  | ??:??:?? 0 Device found at address 0x51 was not able to be enumerated
+INFO  | ??:??:?? 0 BQ27220 found at address 0x55
+INFO  | ??:??:?? 0 3 I2C devices found
+DEBUG | ??:??:?? 0 acc_info = 0
+DEBUG | ??:??:?? 0 mag_info = 0
+INFO  | ??:??:?? 0 S:B:255,2.8.2.eaba8b9,ESP32-S3-LR1121-OLED-154,meshtastic/firmware
+INFO  | ??:??:?? 0 Build timestamp: 1793916000
+DEBUG | ??:??:?? 0 Total heap: 284548
+DEBUG | ??:??:?? 0 Free heap: 226852
+DEBUG | ??:??:?? 0 Total PSRAM: 8388608
+DEBUG | ??:??:?? 0 Free PSRAM: 8380260
+DEBUG | ??:??:?? 0 NVS: UsedEntries 107, FreeEntries 523, AllEntries 630, NameSpaces 5
+DEBUG | ??:??:?? 0 Setup Preferences in Flash Storage
+DEBUG | ??:??:?? 0 Number of Device Reboots: 24
+INFO  | ??:??:?? 0 esp_ota_get_partition_description failed
+INFO  | ??:??:?? 0 MeshtasticOTA firmware not available
+INFO  | ??:??:?? 0 Init NodeDB
+INFO  | ??:??:?? 0 Load /prefs/nodes.proto
+INFO  | ??:??:?? 0 Loaded /prefs/nodes.proto
+INFO  | ??:??:?? 0 Loaded saved nodedatabase v25: 4 nodes, 1 pos, 1 tel, 0 env, 0 status
+INFO  | ??:??:?? 0 Load /prefs/device.proto
+INFO  | ??:??:?? 0 Loaded /prefs/device.proto
+INFO  | ??:??:?? 0 Loaded saved devicestate v25
+INFO  | ??:??:?? 0 Load /prefs/config.proto
+INFO  | ??:??:?? 0 Loaded /prefs/config.proto
+INFO  | ??:??:?? 0 Loaded saved config v25
+ERROR | ??:??:?? 0 Invalid channel index 0 > 0, malformed packet received?
+INFO  | ??:??:?? 0 Load /prefs/module.proto
+INFO  | ??:??:?? 0 Loaded /prefs/module.proto
+INFO  | ??:??:?? 0 Loaded saved moduleConfig v26
+INFO  | ??:??:?? 0 Load /prefs/channels.proto
+INFO  | ??:??:?? 0 Loaded /prefs/channels.proto
+INFO  | ??:??:?? 0 Loaded saved channelFile v26
+ERROR | ??:??:?? 0 Can't open/read /prefs/uiconfig.proto
+DEBUG | ??:??:?? 0 cleanupMeshDB purged 0 entries
+DEBUG | ??:??:?? 0 Use nodenum 0xc3861abe
+DEBUG | ??:??:?? 0 Regenerate PKI public key from private key
+DEBUG | ??:??:?? 0 Set DH private key for crypto operations
+DEBUG | ??:??:?? 0 Device reboots: 24
+DEBUG | ??:??:?? 0 Expand short PSK #1
+INFO  | ??:??:?? 0 Wanted region 3, using EU_868
+DEBUG | ??:??:?? 0 Coerce telemetry to role-aware min on defaults
+INFO  | ??:??:?? 0 Sort took 0 ms
+DEBUG | ??:??:?? 0 Save to disk 20
+DEBUG | ??:??:?? 0 Opening /prefs/device.proto, fullAtomic=1
+INFO  | ??:??:?? 0 Save /prefs/device.proto
+DEBUG | ??:??:?? 0 Opening /prefs/nodes.proto, fullAtomic=0
+INFO  | ??:??:?? 0 Save /prefs/nodes.proto
+INFO  | ??:??:?? 0 TransmitHistory: loaded 1 entries from disk
+DEBUG | ??:??:?? 0 SPI.begin(SCK=40, MISO=46, MOSI=45, NSS=42)
+DEBUG | ??:??:?? 0 Use compiled/slipstreamed tzplaceholder
+DEBUG | ??:??:?? 0 Saved TZ: GMT-2
+DEBUG | ??:??:?? 0 Set Timezone to GMT-2
+DEBUG | ??:??:?? 0 Seed time from system clock: 869
+DEBUG | ??:??:?? 0 Start audio thread
+DEBUG | ??:??:?? 0 Start multicast thread
+INFO  | ??:??:?? 0 [TM] Config: nodeinfo_max_hops=0 rate_window=0s rate_max=0 unknown_thresh=0 pos_interval=21600s
+INFO  | ??:??:?? 0 [TM] Allocating unified cache: 2048 entries (20480 bytes)
+INFO  | ??:??:?? 0 [TM] Allocating NodeInfo cache: 2000 entries, 248000 bytes (flat array)
+INFO  | ??:??:?? 0 [TM] NodeInfo PSRAM cache ready
+ERROR | ??:??:?? 0 Can't open/read /prefs/cannedConf.proto
+INFO  | ??:??:?? 0 CannedMessageModule is enabled
+INFO  | ??:??:?? 0 Load /prefs/ringtone.proto
+INFO  | ??:??:?? 0 Loaded /prefs/ringtone.proto
+INFO  | ??:??:?? 0 Init External Notification Module
+DEBUG | ??:??:?? 0 No saved frame visibility, using defaults
+INFO  | ??:??:?? 0 Applied screen brightness: 153
+INFO  | ??:??:?? 0 Turn on screen
+INFO  | ??:??:?? 0 MessageStore loaded from flash
+DEBUG | ??:??:?? 0 waypoint wants a UI Frame
+DEBUG | ??:??:?? 0 traceroute wants a UI Frame
+DEBUG | ??:??:?? 0 canned wants a UI Frame
+INFO  | ??:??:?? 0 Start meshradio init
+INFO  | ??:??:?? 0 Radio freq=869.525, config.lora.frequency_offset=0.000
+INFO  | ??:??:?? 0 Set radio: region=EU_868, name=LongFast, config=0, ch=0, power=27
+INFO  | ??:??:?? 0 newRegion->freqStart -> newRegion->freqEnd: 869.400024 -> 869.650024 (0.250000 MHz)
+INFO  | ??:??:?? 0 numFreqSlots: 1 x 250.000kHz
+INFO  | ??:??:?? 0 channel_num: 1
+INFO  | ??:??:?? 0 frequency: 869.525024
+INFO  | ??:??:?? 0 Slot time: 44 msec, preamble time: 131 msec
+INFO  | ??:??:?? 0 Final Tx power: 22 dBm
+INFO  | ??:??:?? 0 LR11x0 begin() attempt 1: tcxoVoltage=1.800V at t=821ms
+INFO  | ??:??:?? 1 LR11x0 begin() attempt 1 returned 0 after 371ms
+INFO  | ??:??:?? 1 LR11x0 init result 0
+INFO  | ??:??:?? 1 Frequency set to 869.525024
+INFO  | ??:??:?? 1 Bandwidth set to 250.000000
+INFO  | ??:??:?? 1 Power output set to 22
+DEBUG | ??:??:?? 1 TCXO start-up delay 1000 us
+INFO  | ??:??:?? 1 Set RX gain to boosted mode; result: 0
+INFO  | ??:??:?? 1 RX readout task started, priority 3 (loop 1), core 1
+INFO  | ??:??:?? 1 LR1121 init success
+[  1209][W][Wire.cpp:300] begin(): Bus already started in Master Mode.
+INFO  | ??:??:?? 1 Not using WIFI
+DEBUG | ??:??:?? 1 LoRA bitrate = 116.967873 bytes / sec
+INFO  | ??:??:?? 1 PowerFSM init, USB power=1
+DEBUG | ??:??:?? 1 Free heap  :  200124 bytes
+DEBUG | ??:??:?? 1 Free PSRAM : 7984208 bytes
+INFO  | ??:??:?? 1 MemAudit[boot]: msgstore=4400 warm=80000 nodedb=25000 satmaps=160 pkthist=12048 tmm=20480 tmm_ni=248000 total=390088
+DEBUG | ??:??:?? 1 Node status update: 4 online, 4 total
+INFO  | ??:??:?? 1 [Power] Power: battery hardware absent (USB-only)
+INFO  | ??:??:?? 1 [ExternalNotification] Turning off external notification:
+INFO  | ??:??:?? 1 [ExternalNotification] Stop RTTTL playback
+INFO  | ??:??:?? 1 [ExternalNotification] Stop audioThread playback
+INFO  | ??:??:?? 1 [ExternalNotification] Turning off setExternalStates
+INFO  | ??:??:?? 4 [PowerFSM] Init NimBLE bluetooth
+[  4258][I][BLEDevice.cpp:293] init(): Initializing BLE stack: NimBLE
+[  4335][I][BLEDevice.cpp:1512] host_task(): NimBLE host task started
+INFO  | ??:??:?? 4 [PowerFSM] BLE MTU request set to 517
+INFO  | ??:??:?? 4 [PowerFSM] Use random passkey
+[  4584][I][BLEDevice.cpp:997] getAdvertising(): create advertising
+DEBUG | ??:??:?? 4 [PowerFSM] BLE Advertising started
+INFO  | ??:??:?? 6 [Screen] Done with boot screen
+DEBUG | ??:??:?? 6 [Screen] Show standard frames
+DEBUG | ??:??:?? 6 [Screen] Show 7 module frames
+DEBUG | ??:??:?? 6 [Screen] Added modules.  numframes: 7
+DEBUG | ??:??:?? 6 [Screen] Finished build frames. numframes: 8
+DEBUG | ??:??:?? 14 [RadioIf] Lora RX (id=0x552cb763 fr=0x3c7c1f4f to=0xc3861abe, transport = 0, WantAck=1, HopLim=3 Ch=0 encrypted len=37 rxSNR=6.25 rxRSSI=-101 hopStart=3 nextHop=0xbe re
+DEBUG | ??:??:?? 14 [RadioIf] Packet RX: 518ms
+INFO  | ??:??:?? 14 [Router] Packet decrypted using PKI
+DEBUG | ??:??:?? 14 [Router] decoded message (id=0x552cb763 fr=0x3c7c1f4f to=0xc3861abe, transport = 1, WantAck=1, HopLim=3 Ch=0 Portnum=1 PKI rxSNR=6.25 rxRSSI=-101 hopStart=3 nextHop=0x
+DEBUG | ??:??:?? 14 [Router] handleReceived(REMOTE) (id=0x552cb763 fr=0x3c7c1f4f to=0xc3861abe, transport = 1, WantAck=1, HopLim=3 Ch=0 Portnum=1 PKI rxSNR=6.25 rxRSSI=-101 hopStart=3 nex
+INFO  | ??:??:?? 14 [Router] Received text msg from=0x3c7c1f4f, id=0x552cb763, msg=abc
+INFO  | ??:??:?? 14 [Router] Toggling nagCycleCutoff to 14327
+INFO  | ??:??:?? 14 [Router] externalNotificationModule - Buzzer alert
+DEBUG | ??:??:?? 14 [Router] Routing sniffing (id=0x552cb763 fr=0x3c7c1f4f to=0xc3861abe, transport = 1, WantAck=1, HopLim=3 Ch=0 Portnum=1 PKI rxSNR=6.25 rxRSSI=-101 hopStart=3 nextHop=0
+DEBUG | ??:??:?? 14 [Router] Initial packet id 1200164056
+DEBUG | ??:??:?? 14 [Router] Attached ACK proof for 0x552cb763 to 0x3c7c1f4f
+DEBUG | ??:??:?? 14 [Router]  (id=0x47178cd9 fr=0xc3861abe to=0x3c7c1f4f, transport = 0, WantAck=1, HopLim=2 Ch=0 Portnum=5 requestId=0x552cb763 priority=120)
+DEBUG | ??:??:?? 14 [Router] Expand short PSK #1
+DEBUG | ??:??:?? 14 [Router] Use AES128 key
+DEBUG | ??:??:?? 14 [Router] enqueue for send (id=0x47178cd9 fr=0xc3861abe to=0x3c7c1f4f, transport = 0, WantAck=1, HopLim=2 Ch=8 encrypted len=39 hopStart=2 relay=0xbe priority=120)
+DEBUG | ??:??:?? 14 [Router] Delivering rx packet (id=0x552cb763 fr=0x3c7c1f4f to=0xc3861abe, transport = 1, WantAck=1, HopLim=3 Ch=0 Portnum=1 PKI rxSNR=6.25 rxRSSI=-101 hopStart=3 nextH
+INFO  | ??:??:?? 14 [Router] Sort took 0 ms
+DEBUG | ??:??:?? 14 [Router] Forwarding to phone (id=0x552cb763 fr=0x3c7c1f4f to=0xc3861abe, transport = 1, WantAck=1, HopLim=3 Ch=0 Portnum=1 PKI rxSNR=6.25 rxRSSI=-101 hopStart=3 nextHo
+DEBUG | ??:??:?? 14 [ExternalNotification] EXTERNAL 2 0 compared to 14628
+DEBUG | ??:??:?? 14 [RadioIf] CAD arm
+DEBUG | ??:??:?? 14 [RadioIf] CAD free
+DEBUG | ??:??:?? 14 [RadioIf] Started Tx (id=0x47178cd9 fr=0xc3861abe to=0x3c7c1f4f, transport = 0, WantAck=1, HopLim=2 Ch=8 encrypted len=39 hopStart=2 relay=0xbe priority=120)
+DEBUG | ??:??:?? 15 [RadioIf] Packet TX: 559ms
+DEBUG | ??:??:?? 15 [RadioIf] Completed sending (id=0x47178cd9 fr=0xc3861abe to=0x3c7c1f4f, transport = 0, WantAck=1, HopLim=2 Ch=8 encrypted len=39 hopStart=2 relay=0xbe priority=120)
+DEBUG | ??:??:?? 15 [ExternalNotification] EXTERNAL 2 14630 compared to 15633
+DEBUG | ??:??:?? 16 [RadioIf] Lora RX (id=0xb009dd48 fr=0x3c7c1f4f to=0xc3861abe, transport = 0, WantAck=0, HopLim=0 Ch=8 encrypted len=29 rxSNR=6 rxRSSI=-101)
+DEBUG | ??:??:?? 16 [RadioIf] Packet RX: 477ms
+DEBUG | ??:??:?? 16 [Router] Use channel 0 (hash 0x8)
+DEBUG | ??:??:?? 16 [Router] Expand short PSK #1
+DEBUG | ??:??:?? 16 [Router] Use AES128 key
+DEBUG | ??:??:?? 16 [Router] decoded message (id=0xb009dd48 fr=0x3c7c1f4f to=0xc3861abe, transport = 1, WantAck=0, HopLim=0 Ch=0 Portnum=5 requestId=0x47178cd9 rxSNR=6 rxRSSI=-101)
+DEBUG | ??:??:?? 16 [Router] handleReceived(REMOTE) (id=0xb009dd48 fr=0x3c7c1f4f to=0xc3861abe, transport = 1, WantAck=0, HopLim=0 Ch=0 Portnum=5 requestId=0x47178cd9 rxSNR=6 rxRSSI=-101)
+INFO  | ??:??:?? 16 [Router] Received routing from=0x3c7c1f4f, id=0xb009dd48, portnum=5, payloadlen=2
+DEBUG | ??:??:?? 16 [Router] Routing sniffing (id=0xb009dd48 fr=0x3c7c1f4f to=0xc3861abe, transport = 1, WantAck=0, HopLim=0 Ch=0 Portnum=5 requestId=0x47178cd9 rxSNR=6 rxRSSI=-101)
+DEBUG | ??:??:?? 16 [Router] Received a ACK for 0x47178cd9, stopping retransmissions
+DEBUG | ??:??:?? 16 [Router] Not learning next hop for 0x3c7c1f4f: relay byte 0x0 ambiguous/unknown; keep flooding
+DEBUG | ??:??:?? 16 [Router] Delivering rx packet (id=0xb009dd48 fr=0x3c7c1f4f to=0xc3861abe, transport = 1, WantAck=0, HopLim=0 Ch=0 Portnum=5 requestId=0x47178cd9 rxSNR=6 rxRSSI=-101)
+DEBUG | ??:??:?? 16 [Router] Forwarding to phone (id=0xb009dd48 fr=0x3c7c1f4f to=0xc3861abe, transport = 1, WantAck=0, HopLim=0 Ch=0 Portnum=5 requestId=0x47178cd9 rxSNR=6 rxRSSI=-101)
+DEBUG | ??:??:?? 16 [ExternalNotification] EXTERNAL 2 15635 compared to 16663
+INFO  | ??:??:?? 17 [ExternalNotification] Turning off external notification:
+INFO  | ??:??:?? 17 [ExternalNotification] Stop RTTTL playback
+INFO  | ??:??:?? 17 [ExternalNotification] Stop audioThread playback
+INFO  | ??:??:?? 17 [ExternalNotification] Turning off setExternalStates
