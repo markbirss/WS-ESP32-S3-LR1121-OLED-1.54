@@ -4,6 +4,10 @@ Initial Meshtastic Firmware for the Waveshare **ESP32-S3-LR1121-OLED-1.54** unde
 
 <img width="80%" alt="Hardware Top View" src="https://github.com/user-attachments/assets/481bad58-e465-430b-bd1f-73e6f68c64c3" />
 
+<img width="671" height="1328" alt="20261118_111944" src="https://github.com/user-attachments/assets/eb77e159-43f7-43a0-8d11-c3c1c59e5328" />
+
+<img width="850" height="1213" alt="20261118_112221" src="https://github.com/user-attachments/assets/1475c0d5-602b-4b88-ab2a-83d98ceab659" />
+
 ---
 
 ## 📸 Hardware Specs and Features
